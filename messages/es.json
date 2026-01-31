@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "title": "Better Tomorrow - Tu Compañero de Bienestar Emocional",
+    "description": "Registra tu estado de ánimo, descubre patrones y construye una versión más feliz de ti. Una app de diario emocional con insights de IA, ejercicios de respiración y privacidad total."
+  },
+  "nav": {
+    "features": "Funciones",
+    "insights": "Insights",
+    "privacy": "Privacidad",
+    "download": "Descargar"
+  },
+  "hero": {
+    "tagline": "Siempre hay un",
+    "taglineHighlight": "Mañana Mejor",
+    "headline": "Por fin entiende por qué te sientes como te sientes",
+    "subtitle": "Registra tus emociones. Descubre patrones. Construye resiliencia emocional. Todo en un espacio privado y hermoso que es solo tuyo.",
+    "cta": "Descargar Gratis",
+    "ctaSecondary": "Conoce Más",
+    "trustBadge": "100% privado. Sin cuenta requerida.",
+    "rating": "4.9",
+    "ratingText": "en la App Store"
+  },
+  "problem": {
+    "title": "Algunos días se sienten más pesados que otros",
+    "subtitle": "No sabes bien por qué. Exactamente por eso creamos esto.",
+    "description": "Entender tus emociones es el primer paso hacia días más ligeros. Better Tomorrow te da la claridad que has estado buscando."
+  },
+  "features": {
+    "sectionTitle": "Tu Compañero de Bienestar Emocional",
+    "sectionSubtitle": "Todo lo que necesitas para conocerte mejor",
+    "moodTracking": {
+      "title": "Registro de Ánimo Intuitivo",
+      "description": "Captura cómo te sientes con nuestra escala intuitiva de 10 niveles. Desde los días difíciles hasta los increíbles, cada emoción tiene su lugar.",
+      "detail": "Agrega notas, fotos, notas de voz y etiquetas de contexto"
+    },
+    "patterns": {
+      "title": "Descubre Tus Patrones",
+      "description": "Mira qué actividades mejoran tu ánimo, con quién te sientes mejor y cuándo ocurren tus mejores días.",
+      "detail": "Visualizaciones hermosas revelan la historia detrás de tus emociones"
+    },
+    "breathing": {
+      "title": "Calma Instantánea Cuando la Necesitas",
+      "description": "12 ejercicios de respiración guiados con animaciones sincronizadas para ayudarte a encontrar paz en cualquier momento.",
+      "detail": "Desde principiante hasta avanzado, encuentra el ejercicio perfecto"
+    },
+    "streaks": {
+      "title": "Celebra Tu Progreso",
+      "description": "Gana hermosos trofeos mientras construyes tu hábito de mindfulness. Cada día de reflexión cuenta.",
+      "detail": "Desde Primera Chispa hasta Leyenda del Año, tu dedicación es reconocida"
+    }
+  },
+  "insights": {
+    "sectionTitle": "IA Que Te Entiende de Verdad",
+    "sectionSubtitle": "Insights semanales personalizados con inteligencia artificial",
+    "description": "Recibe un análisis completo de tu semana emocional. Descubre patrones, entiende qué impulsa tu ánimo y recibe consejos prácticos adaptados a tu camino.",
+    "feature1": "Puntuación semanal de bienestar",
+    "feature2": "Detección de patrones",
+    "feature3": "Afirmaciones personalizadas",
+    "feature4": "Consejos prácticos de bienestar",
+    "tone": "Elige tu tono: Amigable, Casual, Profesional o Divertido"
+  },
+  "privacy": {
+    "sectionTitle": "Tu Privacidad Es Sagrada",
+    "sectionSubtitle": "Tus emociones y notas permanecen en tu dispositivo y nunca se comparten",
+    "feature1": {
+      "title": "100% Almacenamiento Local",
+      "description": "Todos tus datos viven en tu dispositivo. Sin nube, sin servidores, sin excepciones."
+    },
+    "feature2": {
+      "title": "Sin Minería de Datos",
+      "description": "No leemos, analizamos ni monetizamos tus entradas. Jamás."
+    },
+    "feature3": {
+      "title": "Seguro y Protegido",
+      "description": "Protección con PIN, Face ID y almacenamiento encriptado mantienen tu diario privado."
+    },
+    "badge": "Privacidad primero, por diseño"
+  },
+  "about": {
+    "sectionTitle": "Hecho Con Cariño",
+    "description": "Better Tomorrow fue creado con una creencia simple: cuando entiendes tus emociones, ganas el poder de moldearlas.",
+    "signature": "Hecho con amor desde Puerto Rico",
+    "experience": "9+ años creando apps que ayudan a las personas a ser más positivas, conscientes y productivas",
+    "mission": "Porque todos merecen una herramienta que realmente los entienda."
+  },
+  "cta": {
+    "title": "Tu viaje hacia conocerte mejor comienza hoy",
+    "subtitle": "Toma 30 segundos. Sin registro requerido.",
+    "button": "Descargar Gratis"
+  },
+  "footer": {
+    "tagline": "Siempre hay un Mañana Mejor",
+    "copyright": "Better Tomorrow App. Todos los derechos reservados.",
+    "madeWith": "Hecho con",
+    "from": "desde Puerto Rico",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "contact": "Contacto"
+  }
+}

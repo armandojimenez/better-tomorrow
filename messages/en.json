@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "title": "Better Tomorrow - Your Mindful Mood Companion",
+    "description": "Track your mood, uncover patterns, and build a happier you. A beautiful mood journaling app with AI insights, breathing exercises, and complete privacy."
+  },
+  "nav": {
+    "features": "Features",
+    "insights": "Insights",
+    "privacy": "Privacy",
+    "download": "Download"
+  },
+  "hero": {
+    "tagline": "There's always a",
+    "taglineHighlight": "Better Tomorrow",
+    "headline": "Finally understand why you feel the way you do",
+    "subtitle": "Track your moods. Uncover patterns. Build emotional resilience. All in a beautiful, private space that is yours alone.",
+    "cta": "Download Free",
+    "ctaSecondary": "Learn More",
+    "trustBadge": "100% private. No account required.",
+    "rating": "4.9",
+    "ratingText": "on the App Store"
+  },
+  "problem": {
+    "title": "Some days feel heavier than others",
+    "subtitle": "You are not sure why. That is exactly why we built this.",
+    "description": "Understanding your emotions is the first step toward lighter days. Better Tomorrow gives you the clarity you have been looking for."
+  },
+  "features": {
+    "sectionTitle": "Your Emotional Wellness Companion",
+    "sectionSubtitle": "Everything you need to understand yourself better",
+    "moodTracking": {
+      "title": "Beautiful Mood Tracking",
+      "description": "Capture how you feel with our intuitive 10-level scale. From struggling to amazing, every emotion has a place here.",
+      "detail": "Add notes, photos, voice memos, and context tags to enrich every entry"
+    },
+    "patterns": {
+      "title": "Discover Your Patterns",
+      "description": "See which activities boost your mood, who you feel best around, and when your best days happen.",
+      "detail": "Beautiful visualizations reveal the story behind your emotions"
+    },
+    "breathing": {
+      "title": "Instant Calm When You Need It",
+      "description": "12 guided breathing exercises with synchronized animations to help you find peace in any moment.",
+      "detail": "From beginner to advanced, find the perfect exercise for your mood"
+    },
+    "streaks": {
+      "title": "Celebrate Your Progress",
+      "description": "Earn beautiful trophies as you build your mindfulness habit. Every day of self-reflection matters.",
+      "detail": "From First Spark to Year Legend, your dedication is recognized"
+    }
+  },
+  "insights": {
+    "sectionTitle": "AI That Understands You",
+    "sectionSubtitle": "Personalized weekly insights powered by AI",
+    "description": "Get a comprehensive analysis of your emotional week. Discover patterns, understand your mood drivers, and receive actionable tips tailored to your journey.",
+    "feature1": "Weekly wellness score",
+    "feature2": "Pattern detection",
+    "feature3": "Personalized affirmations",
+    "feature4": "Actionable wellness tips",
+    "tone": "Choose your insight tone: Friendly, Casual, Professional, or Playful"
+  },
+  "privacy": {
+    "sectionTitle": "Your Privacy Is Sacred",
+    "sectionSubtitle": "Your moods and notes stay on your device and are never shared",
+    "feature1": {
+      "title": "100% Local Storage",
+      "description": "All your data lives on your device. No cloud, no servers, no exceptions."
+    },
+    "feature2": {
+      "title": "No Data Mining",
+      "description": "We do not read, analyze, or monetize your entries. Ever."
+    },
+    "feature3": {
+      "title": "Secure and Protected",
+      "description": "PIN protection, Face ID, and encrypted storage keep your journal private."
+    },
+    "badge": "Privacy-first by design"
+  },
+  "about": {
+    "sectionTitle": "Made With Care",
+    "description": "Better Tomorrow was built with a simple belief: when you understand your emotions, you gain the power to shape them.",
+    "signature": "Made with love from Puerto Rico",
+    "experience": "9+ years crafting apps that help people be more positive, mindful, and productive",
+    "mission": "Because everyone deserves a tool that truly understands them."
+  },
+  "cta": {
+    "title": "Your journey to understanding yourself starts today",
+    "subtitle": "Takes 30 seconds. No signup required.",
+    "button": "Download Free"
+  },
+  "footer": {
+    "tagline": "There is always a Better Tomorrow",
+    "copyright": "Better Tomorrow App. All rights reserved.",
+    "madeWith": "Made with",
+    "from": "from Puerto Rico",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "contact": "Contact"
+  }
+}
