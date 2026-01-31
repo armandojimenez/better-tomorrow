@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { getImagePath } from '@/lib/paths';
 
 export function Problem() {
   const t = useTranslations('problem');
@@ -24,7 +25,7 @@ export function Problem() {
         >
           <div className="mb-8 flex justify-center gap-4">
             <Image
-              src="/noto/great.svg"
+              src={getImagePath('/noto/great.svg')}
               alt=""
               width={56}
               height={56}

@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { Heart } from 'lucide-react';
+import { getImagePath } from '@/lib/paths';
 
 export function About() {
   const t = useTranslations('about');
@@ -36,7 +37,7 @@ export function About() {
                 <div className="relative">
                   <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-primary/20">
                     <Image
-                      src="/me.png"
+                      src={getImagePath('/me.png')}
                       alt="Creator of Better Tomorrow"
                       width={160}
                       height={160}

@@ -5,11 +5,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Heart } from 'lucide-react';
+import { getImagePath } from '@/lib/paths';
 
 export function Footer() {
   const t = useTranslations('footer');
   const pathname = usePathname();
-  const currentLocale = pathname.startsWith('/es') ? 'es' : 'en';
+  const currentLocale = pathname.includes('/es') ? 'es' : 'en';
   const currentYear = new Date().getFullYear();
 
   return (
@@ -20,7 +21,7 @@ export function Footer() {
           <div className="md:col-span-1">
             <Link href={`/${currentLocale}`} className="flex items-center gap-3 mb-4">
               <Image
-                src="/app_icon.png"
+                src={getImagePath('/app_icon.png')}
                 alt="Better Tomorrow"
                 width={48}
                 height={48}
@@ -36,7 +37,7 @@ export function Footer() {
             <div className="flex gap-3">
               <Link href="#" className="block">
                 <Image
-                  src="/app-store-badge.svg"
+                  src={getImagePath('/app-store-badge.svg')}
                   alt="Download on the App Store"
                   width={120}
                   height={40}
@@ -45,7 +46,7 @@ export function Footer() {
               </Link>
               <Link href="#" className="block">
                 <Image
-                  src="/google-play-badge.svg"
+                  src={getImagePath('/google-play-badge.svg')}
                   alt="Get it on Google Play"
                   width={135}
                   height={40}

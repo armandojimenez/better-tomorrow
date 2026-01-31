@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { Brain, TrendingUp, Sparkles, Lightbulb } from 'lucide-react';
+import { getImagePath } from '@/lib/paths';
 
 const features = [
   { icon: TrendingUp, key: 'feature1' },
@@ -33,7 +34,7 @@ export function Insights() {
             <div className="relative">
               <div className="relative phone-shadow">
                 <Image
-                  src="/insight.png"
+                  src={getImagePath('/insight.png')}
                   alt="AI Insights Screen"
                   width={320}
                   height={693}

@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
+import { getImagePath } from '@/lib/paths';
 
 export function FinalCTA() {
   const t = useTranslations('cta');
@@ -34,19 +35,19 @@ export function FinalCTA() {
               animate={{ y: [0, -8, 0] }}
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
             >
-              <Image src="/noto/happy.svg" alt="" width={48} height={48} />
+              <Image src={getImagePath('/noto/happy.svg')} alt="" width={48} height={48} />
             </motion.div>
             <motion.div
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
             >
-              <Image src="/noto/great.svg" alt="" width={56} height={56} />
+              <Image src={getImagePath('/noto/great.svg')} alt="" width={56} height={56} />
             </motion.div>
             <motion.div
               animate={{ y: [0, -8, 0] }}
               transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
             >
-              <Image src="/noto/wonderful.svg" alt="" width={48} height={48} />
+              <Image src={getImagePath('/noto/wonderful.svg')} alt="" width={48} height={48} />
             </motion.div>
           </div>
 
@@ -71,7 +72,7 @@ export function FinalCTA() {
           <div className="flex gap-4 justify-center">
             <Link href="#" className="block transition-transform hover:scale-105">
               <Image
-                src="/app-store-badge.svg"
+                src={getImagePath('/app-store-badge.svg')}
                 alt="Download on the App Store"
                 width={150}
                 height={50}
@@ -80,7 +81,7 @@ export function FinalCTA() {
             </Link>
             <Link href="#" className="block transition-transform hover:scale-105">
               <Image
-                src="/google-play-badge.svg"
+                src={getImagePath('/google-play-badge.svg')}
                 alt="Get it on Google Play"
                 width={168}
                 height={50}

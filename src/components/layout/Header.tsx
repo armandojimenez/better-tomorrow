@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import { getImagePath } from '@/lib/paths';
 
 export function Header() {
   const t = useTranslations('nav');
@@ -44,7 +45,7 @@ export function Header() {
           {/* Logo */}
           <Link href={`/${currentLocale}`} className="flex items-center gap-3">
             <Image
-              src="/app_icon.png"
+              src={getImagePath('/app_icon.png')}
               alt="Better Tomorrow"
               width={44}
               height={44}

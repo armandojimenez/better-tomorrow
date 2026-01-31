@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { Sparkles, BarChart3, Wind, Trophy } from 'lucide-react';
+import { getImagePath } from '@/lib/paths';
 
 const features = [
   {
@@ -68,7 +69,7 @@ export function Features() {
             {/* Mood Entry Screenshot */}
             <div className="flex-shrink-0 relative phone-shadow transform -rotate-6 hover:rotate-0 transition-transform duration-500">
               <Image
-                src="/mood_entry.png"
+                src={getImagePath('/mood_entry.png')}
                 alt="Mood Entry Screen"
                 width={240}
                 height={520}
@@ -79,7 +80,7 @@ export function Features() {
             {/* Home Screenshot (Center, larger) */}
             <div className="flex-shrink-0 relative phone-shadow z-10">
               <Image
-                src="/home.png"
+                src={getImagePath('/home.png')}
                 alt="Home Screen"
                 width={280}
                 height={607}
@@ -90,7 +91,7 @@ export function Features() {
             {/* Insight Screenshot */}
             <div className="flex-shrink-0 relative phone-shadow transform rotate-6 hover:rotate-0 transition-transform duration-500">
               <Image
-                src="/insight.png"
+                src={getImagePath('/insight.png')}
                 alt="Insights Screen"
                 width={240}
                 height={520}

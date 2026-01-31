@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Star } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { getImagePath } from '@/lib/paths';
 
 export function Hero() {
   const t = useTranslations('hero');
@@ -48,7 +49,7 @@ export function Hero() {
             <div className="flex gap-4 justify-center lg:justify-start mb-8" id="download">
               <Link href="#" className="block transition-transform hover:scale-105">
                 <Image
-                  src="/app-store-badge.svg"
+                  src={getImagePath('/app-store-badge.svg')}
                   alt="Download on the App Store"
                   width={140}
                   height={47}
@@ -57,7 +58,7 @@ export function Hero() {
               </Link>
               <Link href="#" className="block transition-transform hover:scale-105">
                 <Image
-                  src="/google-play-badge.svg"
+                  src={getImagePath('/google-play-badge.svg')}
                   alt="Get it on Google Play"
                   width={157}
                   height={47}
@@ -94,7 +95,7 @@ export function Hero() {
               {/* Main Phone */}
               <div className="relative phone-shadow animate-float">
                 <Image
-                  src="/home.png"
+                  src={getImagePath('/home.png')}
                   alt="Better Tomorrow App Home Screen"
                   width={320}
                   height={693}
@@ -111,7 +112,7 @@ export function Hero() {
               >
                 <div className="glass rounded-2xl p-3 shadow-lg">
                   <Image
-                    src="/noto/amazing.svg"
+                    src={getImagePath('/noto/amazing.svg')}
                     alt="Amazing emoji"
                     width={48}
                     height={48}
@@ -126,7 +127,7 @@ export function Hero() {
               >
                 <div className="glass rounded-2xl p-3 shadow-lg">
                   <Image
-                    src="/noto/wonderful.svg"
+                    src={getImagePath('/noto/wonderful.svg')}
                     alt="Wonderful emoji"
                     width={40}
                     height={40}
@@ -141,7 +142,7 @@ export function Hero() {
               >
                 <div className="glass rounded-2xl p-3 shadow-lg">
                   <Image
-                    src="/noto/happy.svg"
+                    src={getImagePath('/noto/happy.svg')}
                     alt="Happy emoji"
                     width={36}
                     height={36}
