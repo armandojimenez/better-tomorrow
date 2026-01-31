@@ -14,9 +14,10 @@ export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const currentLocale = pathname.startsWith('/es') ? 'es' : 'en';
+  // Handle both /en and /es patterns for static export
+  const currentLocale = pathname.includes('/es') ? 'es' : 'en';
   const otherLocale = currentLocale === 'en' ? 'es' : 'en';
-  const localePath = currentLocale === 'en' ? '' : '/es';
+  const localePath = `/${currentLocale}`;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,9 +28,9 @@ export function Header() {
   }, []);
 
   const navLinks = [
-    { href: `${localePath}#features`, label: t('features') },
-    { href: `${localePath}#insights`, label: t('insights') },
-    { href: `${localePath}#privacy`, label: t('privacy') },
+    { href: `${localePath}/#features`, label: t('features') },
+    { href: `${localePath}/#insights`, label: t('insights') },
+    { href: `${localePath}/#privacy`, label: t('privacy') },
   ];
 
   return (
@@ -71,7 +72,7 @@ export function Header() {
           <div className="flex items-center gap-4">
             {/* Language Switcher */}
             <Link
-              href={otherLocale === 'en' ? '/' : '/es'}
+              href={`/${otherLocale}/`}
               className="text-sm font-medium text-foreground/60 hover:text-foreground transition-colors uppercase tracking-wide"
             >
               {otherLocale === 'en' ? 'EN' : 'ES'}
@@ -82,7 +83,7 @@ export function Header() {
               asChild
               className="hidden sm:inline-flex bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-6"
             >
-              <Link href={`${localePath}#download`}>{t('download')}</Link>
+              <Link href={`${localePath}/#download`}>{t('download')}</Link>
             </Button>
 
             {/* Mobile Menu Button */}

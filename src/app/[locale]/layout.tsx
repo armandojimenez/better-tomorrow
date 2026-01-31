@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, DM_Sans } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import "../globals.css";
@@ -28,7 +28,9 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const messages = await getMessages();
+  
+  // Import messages directly for metadata
+  const messages = (await import(`../../../messages/${locale}.json`)).default;
   const t = messages.metadata as { title: string; description: string };
 
   return {
@@ -88,6 +90,9 @@ export default async function LocaleLayout({
   if (!routing.locales.includes(locale as 'en' | 'es')) {
     notFound();
   }
+
+  // Enable static rendering
+  setRequestLocale(locale);
 
   const messages = await getMessages();
 
