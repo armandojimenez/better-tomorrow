@@ -35,7 +35,7 @@ export function Footer() {
               {t('tagline')}
             </p>
             <div className="flex gap-3">
-              <Link href="#" className="block">
+              <Link href="https://apps.apple.com/us/app/better-tomorrow-mood-journal/id6757399861" className="block">
                 <Image
                   src={getImagePath('/app-store-badge.svg')}
                   alt="Download on the App Store"
@@ -44,7 +44,7 @@ export function Footer() {
                   className="h-10 w-auto"
                 />
               </Link>
-              <Link href="#" className="block">
+              <Link href="https://play.google.com/store/apps/details?id=dev.armandojimenez.better_tomorrow" className="block">
                 <Image
                   src={getImagePath('/google-play-badge.svg')}
                   alt="Get it on Google Play"
@@ -83,12 +83,12 @@ export function Footer() {
             <h4 className="font-semibold text-foreground mb-4">Legal</h4>
             <ul className="space-y-3">
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
+                <Link href="https://armandojimenez.dev/apps/better-tomorrow/privacy-policy.html" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
                   {t('privacyPolicy')}
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
+                <Link href="https://armandojimenez.dev/apps/better-tomorrow/terms.html" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
                   {t('termsOfService')}
                 </Link>
               </li>

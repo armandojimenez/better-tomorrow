@@ -70,7 +70,7 @@ export function FinalCTA() {
 
           {/* Store Badges */}
           <div className="flex gap-4 justify-center">
-            <Link href="#" className="block transition-transform hover:scale-105">
+            <Link href="https://apps.apple.com/us/app/better-tomorrow-mood-journal/id6757399861" className="block transition-transform hover:scale-105">
               <Image
                 src={getImagePath('/app-store-badge.svg')}
                 alt="Download on the App Store"
@@ -79,7 +79,7 @@ export function FinalCTA() {
                 className="h-14 w-auto"
               />
             </Link>
-            <Link href="#" className="block transition-transform hover:scale-105">
+            <Link href="https://play.google.com/store/apps/details?id=dev.armandojimenez.better_tomorrow" className="block transition-transform hover:scale-105">
               <Image
                 src={getImagePath('/google-play-badge.svg')}
                 alt="Get it on Google Play"
