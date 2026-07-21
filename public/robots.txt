@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /better-tomorrow/
+
+Sitemap: https://armandojimenez.dev/better-tomorrow/sitemap.xml
